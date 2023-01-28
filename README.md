@@ -2,6 +2,7 @@
 
 
 ![img](https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png)
+> View Notebook @ https://github.com/Davidsonity/House-Prices-Prediction/blob/main/house-price.ipynb
 
 ## Project
 Participation in Kaggle competition
