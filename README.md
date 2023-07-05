@@ -24,7 +24,7 @@ The repository is organized as follows:
 - **data_description.txt**: A text file containing a detailed description of the dataset.
 - **notebook.ipynb**: Jupyter Notebook containing the code, analysis, and implementation of the project.
 
-### Project Structure
+#### Notebook Structure
 
 The notebook can be divided into the following sections:
 
