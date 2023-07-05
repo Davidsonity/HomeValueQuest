@@ -1,21 +1,32 @@
 ## House Prices: Advanced Regression Techniques
 
 ![img](https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png)
-> View kaggle Notebook @ https://www.kaggle.com/code/vokeeshemitan/house-price
 
-This project is part of the Kaggle competition titled "House Prices: Advanced Regression Techniques." The goal of this competition is to predict the final sale price of residential homes in Ames, Iowa, based on a set of 79 explanatory variables that describe various aspects of the houses.
+This project aims to predict the sales prices of residential homes in Ames, Iowa. The dataset contains 79 explanatory variables describing various aspects of the houses. By leveraging advanced regression techniques like random forest and gradient boosting, we can accurately estimate the final price of each home.
 
-### Dataset
+## Competition Description
 
-The dataset provided for this competition contains both training and test data. The training dataset consists of labeled examples with known sale prices, while the test dataset contains unlabeled examples for which participants need to predict the sale prices. The dataset provides a comprehensive set of features, including information about the size, location, amenities, and quality of each house.
+Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement ceiling or the proximity to an east-west railroad. But this Kaggle competition's dataset proves that much more influences price negotiations than the number of bedrooms or a white-picket fence.
 
-### Evaluation Metric
+With the dataset compiled by Dean De Cock, we have an incredible opportunity to showcase our skills in creative feature engineering and advanced regression techniques. The goal is to predict the sales price for each house in the test set.
 
-Submissions in this competition are evaluated based on the Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted sale prices and the logarithm of the observed sale prices. By taking the logarithm, the competition aims to ensure that errors in predicting expensive houses and cheap houses have an equal impact.
+## Dataset
+
+The dataset used in this project is the Ames Housing dataset, which provides comprehensive information about residential homes in Ames, Iowa. It serves as a modernized and expanded version of the widely known Boston Housing dataset.
+
+For detailed information about the dataset and its columns, please refer to the [data_description.txt](data_description.txt) file.
+
+### Repository Structure
+
+The repository is organized as follows:
+
+- **README.md**: This file you're currently reading, providing an overview of the project.
+- **data_description.txt**: A text file containing a detailed description of the dataset.
+- **notebook.ipynb**: Jupyter Notebook containing the code, analysis, and implementation of the project.
 
 ### Project Structure
 
-The project can be divided into the following sections:
+The notebook can be divided into the following sections:
 
 1. **Preliminary Wrangling**: This section involves loading the dataset, exploring the data, and understanding its structure. It includes steps like checking data information, performing descriptive statistics, and identifying columns with missing values.
 
@@ -45,20 +56,30 @@ Please make sure to install these dependencies before running the project.
 
 ### Usage
 
-To use this project, follow these steps:
-1. Download the dataset from the Kaggle competition page.
-2. Ensure that the required dependencies are installed.
-3. Run the code in the provided Jupyter Notebook or Python environment.
-4. Follow the instructions within the notebook to explore, preprocess, and model the data.
-5. Use the best-performing model to make predictions on the test dataset and submit the results to the competition platform.
+1. Clone the repository to your local machine.
+2. Ensure you have the necessary requirements installed. 
+3. Open the `notebook.ipynb` file in Jupyter Notebook or any compatible environment.
+4. Execute the code cells in the notebook sequentially to reproduce the analysis and predictions.
+5. Feel free to explore and modify the code according to your needs.
+
+### Evaluation Metric
+
+The submissions in this competition are evaluated based on the Root-Mean-Squared-Error (RMSE) between the logarithm of the predicted value and the logarithm of the observed sales price. Taking logarithms helps to equalize the impact of errors on expensive and cheap houses.
+
+### Resources
+
+- [Competition Page on Kaggle](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+- [Kaggle Notebook Example](https://www.kaggle.com/code/vokeeshemitan/house-price)
+
+By following the instructions and exploring the provided resources, you will gain a deep understanding of the project and be able to make accurate predictions on house prices.
+
+Feel free to contribute to the project, provide feedback, or reach out with any questions or suggestions. Happy coding!
 
 ### Conclusion
 
 This project demonstrates the application of advanced regression techniques to predict house prices. By exploring and preprocessing the dataset, building and evaluating regression models, and submitting predictions, participants can gain experience in feature engineering, regression modeling, and working with real-world datasets.
 
-For more detailed information about the competition and dataset, please refer to the [Kaggle competition page](https://www.kaggle.com/competitions/house-prices
-
--advanced-regression-techniques).
+---
 
 ### Author
 
