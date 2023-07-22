@@ -1,4 +1,4 @@
-# House Price Prediction
+# HomeValueQuest
 
 ![img](https://storage.googleapis.com/kaggle-competitions/kaggle/5407/media/housesbanner.png)
 
